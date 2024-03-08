@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+     margin: 10px;
+     padding: 50px;
+     background-color: #c6b5b5;
+     /* Choose a background color */
+     font-family: Arial, sans-serif;
+     
+ }
+ img {
+     width: 80%;
+ 
+ }
+ 
+ p {
+     margin: 20px 0;
+ 
+ }
+ 
+ .text-center {
+     text-align: center;
+ 
+ }
+ 
+ @media only scrin and (max-with: 600px) {
+ .text-center {
+ text-align: center;
+  } 
+ }
+ button {
+     background-color: #6b8799;
+     /* Choose a button color */
+     color: #fff;
+     padding: 10px 20px;
+ }
+ 
+ 
+ 
+ 
+ .circle-image {
+     width: 80px;
+     /* Adjust the size as needed */
+     height: 80px;
+     /* Adjust the size as needed */
+     border-radius: 50%;
+     overflow: hidden;
+     margin: 10px;
+     display: inline-block;
+ }
+ 
+ 
+ 
+ #footer a {
+     color: #8c0912;
+     text-decoration: none;
+     font-size: large;
+   
+ }
+ #animatedlog {
+     position: relative;
+     animation: moveImage 5s infinite alternate;
+     width: auto;
+     height: auto;
+ }
+ 
+ #animatedImage {
+     position: relative;
+     animation: moveImage 5s infinite alternate;
+     width: auto;
+     height: auto;
+  
+ }
+ 
+ @keyframes moveImage {
+     from {
+         left: 0;
+         
+     }
+ 
+     to {
+         left: 120px; /* یا هر مقدار دلخواهی که می‌خواهید تصویر حرکت کند */
+     }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
