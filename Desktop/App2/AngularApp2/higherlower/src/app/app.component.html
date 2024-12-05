@@ -1,0 +1,8 @@
+<div>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+    <input type="text" placeholder="Search cards" [(ngModel)]="searchTerm" />
+    <div *ngFor="let card of filteredCards()">
+      <p>{{ card.suit }} - {{ card.name }} (Rank: {{ card.rank }})</p>
+    </div>
+  </div>
